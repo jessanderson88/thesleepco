@@ -48,6 +48,7 @@ body {
 .font-weight-heavy {font-weight:800;}
 
 h2 { font-size: 2.5rem; line-height:1.1; margin-bottom:1rem;}
+h3 {line-height:1.1; margin-bottom:1rem;}
 p { font-weight:200; line-height:1.5;}
 p:last-child {margin-bottom:0;}
 
@@ -67,11 +68,14 @@ header h3 {
 /* Image Styles */
 
 .bg-bed {background-image: url('/images/sleep-co-image-3.jpg'); 
-    background-position:center;}
+    background-position:center;
+    background-size: cover;}
 .bg-pug {background-image: url('/images/sleep-co-image-1.jpg'); 
-    background-position:50% 35%;}
+    background-position:50% 35%;
+    background-size: cover;}
 .bg-pillow {background-image: url('/images/sleep-co-image-2.jpg'); 
-    background-position:center;}
+    background-position:50% 56%;
+    background-size: cover;}
 
 /* Icon Styles */
 
