@@ -1,23 +1,107 @@
 <!DOCTYPE html>
 <html>
-<!-- This is the header -->
- <head>
+<!----------------------This is the header -------------------------->
+<head>
+    <title> This is the title </title>
+    
+    <!-- This is our grid stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
-     <title> This is the title </title>
-     
-     <!-- This is our grid stylesheet -->
+    <!-- This is our Google Fonts -->
 
-     <!-- This is our Google Fonts -->
+    <!-- This is our Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-     <!-- This is our CSS Stylesheet, this always goes last -->
-     <link rel="stylesheet" href="style.css">
+    <!-- This is our CSS Stylesheet, this always goes last -->
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
-<!-- This is the body, this is where all page content goes -->
+<!---------------- This is the body, this is where all page content goes ------------>
 <body>
-   
-    <h1>Hello World</h1>
+
+    <!------------------- Header Banner------------------------->
+    <header class="padded grid">
+        <div>
+        <h3>sleep like a baby</h3>
+        <h1>the ultimate mattress solution</h1>
+        </div>
+    </header>
+
+    <!------------------- About section ------------------------->
+    <section class="grid">
+        <div class="padded col-6">
+            <h2>built to last a lifetime</h2>
+            <p>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</p>
+        </div>
+        <div class="bg-image col-6">
+            <!-- background image embed -->
+        </div>
+        <div class="bg-image col-6">
+            <!-- background image embed -->
+        </div>
+        <div class="padded col-6">
+            <h2>so you'll melt</h2>
+            <p>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</p>
+        </div>
+    </section>
+
+<!------------------- Feature icon grid  ------------------------->
+
+<section class="padded grid bg-dark">
+    <div class ="padded-1 col-12">
+        <h2> features you will love </h2>
+    </div>
+    <div class ="padded-1 col-3">
+        <i class="fas fa-cloud"></i>
+        <p>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</p>
+    </div>
+    <div class ="padded-1 col-3">
+        <i class="fas fa-cloud"></i>
+        <p>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</p>
+    </div>
+    <div class ="padded-1 col-3">
+        <i class="fas fa-cloud"></i>
+        <p>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</p>
+    </div>
+    <div class ="padded-1 col-3">
+        <i class="fas fa-cloud"></i>
+        <p>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</p>
+    </div>
+</section>
+
+<!--------------------------- Image Banner ------------------------------>
+<section class="padded">
+    <h3>never underestimate the power of a good night sleep</h3>
+</section>
+
+<!--------------------------- Testimonials  -------------------------------->
+<section class="padded grid">
+    <div class="col-1">
+        <span>"</span>
+    </div>
+    <div class="col-10">
+        <p>I've never experienced a mattress like this. Omg I really love this mattress I want to buy one for every member of the family</p>
+        <p>A very happy customer</p>
+    </div>
+    <div class="col-1">
+        <span>"</span>
+    </div>
+</section>
+
+<!------------------------------ Footer  ----------------------------------->
+<footer class="padded grid-spaceBetween bg-dark">
+    <div class="col-4">
+        <h2>let's connect</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    </div>
+    <div class="col-5">
+        <p> Call: 04555 5555</p>
+        <p> Email: jess@hello.com.au</p>
+        <p> Store: 123 Rainbow Street</p>
+    </div>
+</footer>
+
 
 </body>
 </html>
