@@ -111,3 +111,49 @@ header h3 {
     color: grey;
     line-height: 1;
 }
+
+/* Form Styles */
+
+form input, 
+form textarea {
+
+margin: 0.5rem 0;
+width:100%;
+padding: 0.5rem;
+border: 2px solid rgb(220,220,220);
+outline:none;
+font-family: inherit;
+font-size: 0.9rem;
+}
+
+form input:focus,
+form textarea:focus{
+border-color:#FFBE00;
+}
+
+textarea {
+min-height:4rem;
+}
+
+form label {
+margin-top: 1rem;
+display:block;
+color:#FFBE00;
+font-weight:bold;
+
+}
+
+form button {
+background-color: #FFBE00;
+font-weight:bold;
+color: black;
+border:none;
+padding: 0.5rem 2rem;
+margin: 0.5rem 0;
+}
+
+form button:hover {
+    background-color: black;
+    color: #FFBE00;
+    font-weight:bold;
+}
