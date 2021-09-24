@@ -21,6 +21,7 @@ body {
 
 .padded {padding:5%;}
 .padded-1 {padding:1rem;}
+.padded-2 {padding:2rem;}
 .padded-large {padding:10%;}
 
 .bg-dark {background-color: #192B37; color:#ffffff; }
@@ -84,6 +85,21 @@ header {
 header h3 {
     font-size:5rem;
     line-height:1;
+}
+
+
+.nav a { 
+    padding:0.5rem;
+    display: inline-block;
+    border: none;
+    }
+    
+footer a { 
+    border: none;
+    }
+
+.logo h2 { 
+margin-bottom: 0;
 }
 
 /* Image Styles */
@@ -163,3 +179,4 @@ form button:hover {
     color: #FFBE00;
     font-weight:bold;
 }
+
